@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netstream Clone</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">Netstream</div>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">TV Shows</a>
+            <a href="#">Movies</a>
+            <a href="#">My List</a>
+        </nav>
+        <div class="profile">
+            <i class="fa-solid fa-search"></i>
+            <i class="fa-solid fa-bell"></i>
+            <div class="avatar"></div>
+        </div>
+    </header>
+
+    <div class="hero">
+        <div class="hero-content">
+            <h1>Stranger Echoes</h1>
+            <p>When a young boy vanishes, a small town uncovers a mystery involving secret experiments, terrifying supernatural forces and one strange little girl.</p>
+            <div class="hero-buttons">
+                <button class="play-btn"><i class="fa-solid fa-play"></i> Play</button>
+                <button class="info-btn"><i class="fa-solid fa-circle-info"></i> More Info</button>
+            </div>
+        </div>
+        <div class="hero-fade"></div>
+    </div>
+
+    <main class="sliders">
+        <div class="row">
+            <h2>Trending Now</h2>
+            <div class="slider" id="trending-slider">
+                <!-- Javascript will inject posters -->
+            </div>
+        </div>
+        <div class="row">
+            <h2>Top Picks For You</h2>
+            <div class="slider" id="top-slider"></div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
